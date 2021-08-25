@@ -20,6 +20,16 @@ If you find this code useful, please cite:
 }
 ```
 
+## Related Papers
+
+[1] Chi Xu; Lilian Zhang*; Li Cheng; R. Koch, "Pose Estimation from Line Correspondences: A Complete Analysis and A Series of Solutions," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol.PP, no.99, pp.1-1, doi: 10.1109/TPAMI.2016.2582162
+
+[2] Shiqi Li, Chi Xu*. A Stable Direct Solution of Perspective-Three-Point Problem [J]. International Journal of Pattern Recognition and Artificial Intelligence, 2011, 25(5): 643-673
+
+[3] Shiqi Li, Chi Xu*. Efficient Lookup Table Based Camera Pose Estimation for Augmented Reality [J]. Computer Animation and Virtual Worlds, 2011, 22(1): 47-58
+
+[4] Lilian Zhang, Chi Xu*, Kok-Meng Lee, and Reinhard Koch. "Robust and efficient pose estimation from line correspondences." In Asian Conference on Computer Vision, pp. 217-230. Springer Berlin Heidelberg, 2012.
+
 # How To Use RPnP Algorithm
 
 The RPnP algorithm is implemented in "RPnP.m" file, its full path is "./func/RPnP.m" 
