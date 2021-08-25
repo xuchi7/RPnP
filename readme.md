@@ -1,13 +1,9 @@
 # Readme
 
-It is the official implementation of RPnP. 
-
-The code was previously released on http://xuchi.weebly.com/rpnp.html
-
-As weebly cannot be stably accessed from China, I migrate the repository to GitHub. 
-
-The link of this repository is https://github.com/xuchi7/RPnP.git
-
+It is the official implementation of RPnP.  
+The code was previously released on http://xuchi.weebly.com/rpnp.html  
+As weebly cannot be stably accessed from China, I migrate the repository to GitHub.  
+The link of this repository is https://github.com/xuchi7/RPnP.git  
 If you find this code useful, please cite:
 
 [1] Shiqi Li, Chi Xu*, Ming Xie, "A Robust O(n) Solution  to the Perspective-n-Point Problem," IEEE Transactions on  Pattern Analysis and Machine Intelligence, vol. 34, no. 7, pp. 1444-1450,  July 2012, doi:10.1109/TPAMI.2012.41
@@ -43,11 +39,9 @@ As can be seen in the figure below, OXYZ is a camera coordinate frame, and its Z
 
 Let the image coordinate be $(u,v)$, the image center be $(cu,cv)$, and the focal length is $f$, the normalized coordinates $(x_n,y_n)$ are calculated as follow:
 
-$$
-x_n = (u - cu)/f
-$$
-$$
-y_n = (v - cv)/f
+$$  
+x_n = (u - cu)/f,   
+y_n = (v - cv)/f  
 $$
 
 Usually, $cu = w/2$ and $cv = h/2$, in which $w$ and $h$ are the width and height of the image respectively.
