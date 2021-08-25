@@ -30,6 +30,22 @@ If you find this code useful, please cite:
 
 [4] Lilian Zhang, Chi Xu*, Kok-Meng Lee, and Reinhard Koch. "Robust and efficient pose estimation from line correspondences." In Asian Conference on Computer Vision, pp. 217-230. Springer Berlin Heidelberg, 2012.
 
+## Abstract
+
+We propose a noniterative solution for the Perspective-n-Point (PnP)
+problem, which can robustly retrieve the optimum by solving a seventh order
+polynomial. The central idea consists of three steps: 1) to divide the reference
+points into 3-point subsets in order to achieve a series of fourth order polynomials,
+2) to compute the sum of the square of the polynomials so as to form a cost
+function, and 3) to find the roots of the derivative of the cost function in order to
+determine the optimum. The advantages of the proposed method are as follows:
+First, it can stably deal with the planar case, ordinary 3D case, and quasi-singular
+case, and it is as accurate as the state-of-the-art iterative algorithms with much
+less computational time. Second, it is the first noniterative PnP solution that can
+achieve more accurate results than the iterative algorithms when no redundant
+reference points can be used (n <= 5). Third, large-size point sets can be handled
+efficiently because its computational complexity is OðnÞ.
+
 # How To Use RPnP Algorithm
 
 The RPnP algorithm is implemented in "RPnP.m" file, its full path is "./func/RPnP.m" 
